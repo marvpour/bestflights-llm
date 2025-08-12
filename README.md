@@ -6,7 +6,7 @@ FlightFinder LLM uses advanced large language models (LLMs) combined with live f
 
 ## 🔥 **Example Workflow:**  
 1. LLM agents understand user inputs — destination, departure city, travel dates, number of days, and preferences.  
-2. Calls Google Flights API (or similar) to fetch live flight details.  
+2. Calls Flights API to fetch live flight details.  
 3. Applies smart sorting and filtering functions to find the best flights (price, duration, layovers, etc.).  
 4. Uses LLM-powered wrapper to reword and summarize the flight options for easy user comprehension.
 
@@ -34,6 +34,6 @@ python main.py
 
 ## 📚 Technologies Used
 - **OpenAI GPT (LLM)** – For understanding user intent and summarizing results
-- **Flight APIs** – Google Flights for live flight data retrieval
+- **Flight APIs** – Flights API for live flight data retrieval
 - **Requests** – For API calls
 - **Custom Sorting Algorithms** – To find and rank optimal flights
